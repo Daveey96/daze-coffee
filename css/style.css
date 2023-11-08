@@ -342,22 +342,20 @@ button {
   width: 100%;
   float: left;
   padding-top: 40px;
+  display: flex;
+  gap: 0rem;
 }
-
-.about_bt {
-  width: 175px;
-  float: left;
+.btn_main a {
+  font-size: 18px;
+  padding: 12px 24px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .about_bt a {
-  width: 100%;
   float: left;
-  font-size: 18px;
   background-color: #d48272;
   color: #fefefd;
-  text-align: center;
-  padding: 12px;
-  border-radius: 5px;
 }
 
 .about_bt a:hover {
@@ -365,19 +363,11 @@ button {
   background-color: #4a4949;
 }
 
-.callnow_bt {
-  width: 175px;
-  float: left;
-}
-
 .callnow_bt a {
-  width: 100%;
   float: left;
-  font-size: 18px;
   background-color: #d48272;
   color: #fefefd;
   text-align: center;
-  padding: 12px;
   margin-left: 10px;
   border-radius: 5px;
 }
